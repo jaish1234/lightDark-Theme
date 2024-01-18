@@ -1,0 +1,54 @@
+.del {
+    position: relative;
+    text-align: center;
+    margin-top: 1%;
+}
+/* first */      
+.kf1 {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin: 10% 12%;
+}   
+.id6 {
+    border-radius: 35px;
+}
+.kf2 {
+    margin-top: 2%;
+}
+.kf2 p {
+    width: 385px;
+}
+
+/* second */
+.kj1 {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin: -4% 12%;
+}
+.ij6 {     
+    width: 95%;
+    border-radius: 35px;
+}
+.kj2 {
+    margin-top: 2%;
+}
+.kj2 p {
+    width: 385px;
+}
+
+/* third */
+.iu6 {
+    width: 65%;
+    border-radius: 35px;
+}
+
+/* fourth */
+.ij9 {
+    width: 380px;
+    border-radius: 35px;
+}
+.ij8 {
+    width: 380px;
+}

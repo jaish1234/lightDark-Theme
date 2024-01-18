@@ -1,0 +1,489 @@
+/* part 1 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.ia1 {
+    width: 100%;
+    height: 800px;
+}
+.ia2 {
+    width: 30%;
+    height: 150px;
+    margin-top: -1.5%;
+}
+.a6 {
+    position: absolute;
+    display: flex;
+    margin-top: -10%;
+    color: black;
+}
+.a2 {
+    margin-left: 160%;
+    text-decoration: none;
+    color: black;
+}
+.a3 {
+    margin-left: 12%;
+    text-decoration: none;
+    color: black;
+}
+.a4 {
+    margin-left: 12%;
+    text-decoration: none;
+    color: black;
+}
+.a8 {
+    margin-left: 12%;
+    text-decoration: none;
+    color: black;
+}
+.a9 {
+    margin-left: 12%;
+    text-decoration: none;
+    color: black;
+}
+.ia3 {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    margin-top: -10.3%;
+    margin-left: 89%;
+}
+.ia4 {
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    margin-top: -10%;
+    margin-left: 15%;
+}
+.a7 {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: -10%;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+/* part 2 */
+
+.b1 {
+    margin-top: 10%;
+    text-align: center;
+    font-family: sans-serif;
+}
+.b2 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0.5%;
+}
+.ib1 {
+    margin-left: 26%;
+    margin-top: 5%;
+}
+.b3 {
+    margin-left: 46%;
+}
+.b4 {
+    background-color: rgba(255, 145, 0, 0.918);
+    color: white;
+    border: 2px solid rgba(255, 145, 0, 0.918);
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 5%;
+}
+
+/* part 3 */
+
+.c1 {
+    background-color: rgb(0, 0, 99);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+input[type="checkbox"] {
+    display: none;
+}
+.a5 {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+/* media Queri */
+@media (max-width: 1024px) {
+    .ia33{
+        margin-left: 8%;
+    }
+}
+
+@media (max-width: 768px) {
+    .a6 li:hover {
+        display: inline-block;
+        transition: 0.3s ease;
+    }
+    .a6 li + li {
+        margin-top: 12px;
+    }
+    input[type="checkbox"]:checked ~ .a6 {
+        display: block;
+    }
+    .a5 {
+        position: absolute;
+        display: block;
+        margin-left: 550px;
+        margin-top: -17%;
+    }
+    .a6 {
+        display: none;
+        list-style-type: none;
+        text-align: right;
+        right: 10%;
+        left: 0;
+        text-decoration: none;
+    }
+    .a2 {
+        position: absolute;
+        display: block;
+        color: black;
+        margin-left: 55%;
+        text-decoration: none;
+    }
+    .a3 {
+        position: absolute;
+        color: black;
+        margin-left: -45.7%;
+        margin-top: 3%;
+        text-decoration: none;
+    }
+    .a4 {
+        position: absolute;
+        color: black;
+        margin-left: -47%;
+        margin-top: 6%;
+        text-decoration: none;
+    }
+    .a8 {
+        position: absolute;
+        text-decoration: none;
+        margin-left: -46.7%;
+        margin-top: 9%;
+    }
+    .a9 {
+        position: absolute;
+        text-decoration: none;
+        margin-left: -49%;
+        margin-top: 12%;
+    }
+    .ia3 {
+        position: absolute;
+        margin-top: -6%;
+        width: 25px;
+        height: 25px;
+        margin-left: 80%;
+    }
+    .a7 {
+        position: absolute;
+        margin-left: 17%;
+        margin-top: -16%;
+        text-decoration: none;
+    }
+    .ia3{
+        position: absolute;
+        margin-left: 78%;
+        margin-top: -16%;
+    }
+    .ia4 {
+        position: absolute;
+        margin-left: 12%;
+        margin-top: -16%;
+    }
+    .ib1 {
+        margin-left: 9.2%;
+    }
+    .b2 {
+        font-size: 14px;
+    }
+    .b3 {
+        margin-left: 43%;
+    }
+}
+
+@media (max-width: 426px) {
+    .a6 li:hover {
+        display: inline-block;
+        transition: 0.3s ease;
+    }
+    .a6 li + li {
+        margin-top: 12px;
+    }
+    input[type="checkbox"]:checked ~ .a6 {
+        display: block;
+    }
+    .a5 {
+        position: absolute;
+        display: block;
+        margin-left: 300px;
+        margin-top: -30%;
+    }
+    .a6 {
+        display: none;
+        list-style-type: none;
+        text-align: right;
+        right: 10%;
+        left: 0;
+        text-decoration: none;
+    }
+    .a2 {
+        position: absolute;
+        display: block;
+        color: black;
+        margin-left: 55%;
+        margin-top: -11%;
+        text-decoration: none;
+    }
+    .a3 {
+        position: absolute;
+        color: black;
+        margin-left: -45.7%;
+        margin-top: -5%;
+        text-decoration: none;
+    }
+    .a4 {
+        position: absolute;
+        color: black;
+        margin-left: -47.7%;
+        margin-top: 1%;
+        text-decoration: none;
+    }
+    .a8 {
+        position: absolute;
+        text-decoration: none;
+        margin-left: -46.7%;
+        margin-top: 6.8%;
+    }
+    .a9 {
+        position: absolute;
+        text-decoration: none;
+        margin-left: -50%;
+        margin-top: 13%;
+    }
+    .a7 {
+        position: absolute;
+        margin-left: 8%;
+        margin-top: -29.5%;
+        text-decoration: none;
+    }
+    .ia3{
+        position: absolute;
+        margin-left: 82%;
+        margin-top: -28%;
+    }
+    .ia4 {
+        position: absolute;
+        margin-left: 0.5%;
+        margin-top: -30%;
+    }
+    .ib1 {
+        margin-left: 9.2%;
+        width: 80%;
+    }
+    .b2 {
+        font-size: 14px;
+    }
+    .b3 {
+        margin-left: 34%;
+    }
+    .c1{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 376px) {
+    .a6 li:hover {
+        display: inline-block;
+        transition: 0.3s ease;
+    }
+    .a6 li + li {
+        margin-top: 12px;
+    }
+    input[type="checkbox"]:checked ~ .a6 {
+        display: block;
+    }
+    .a5 {
+        position: absolute;
+        display: block;
+        margin-left: 260px;
+        margin-top: -25%;
+    }
+    .a6 {
+        display: none;
+        list-style-type: none;
+        text-align: right;
+        right: 10%;
+        left: 0;
+        text-decoration: none;
+    }
+    .a2 {
+        position: absolute;
+        display: block;
+        color: black;
+        margin-left: 55%;
+        margin-top: -11%;
+        text-decoration: none;
+    }
+    .a3 {
+        position: absolute;
+        color: black;
+        margin-left: -45.7%;
+        margin-top: -5%;
+        text-decoration: none;
+    }
+    .a4 {
+        position: absolute;
+        color: black;
+        margin-left: -47.7%;
+        margin-top: 1%;
+        text-decoration: none;
+    }
+    .a8 {
+        position: absolute;
+        text-decoration: none;
+        margin-left: -46.7%;
+        margin-top: 6.8%;
+    }
+    .a9 {
+        position: absolute;
+        text-decoration: none;
+        margin-left: -50%;
+        margin-top: 13%;
+    }
+    .a7 {
+        position: absolute;
+        margin-left: 8%;
+        margin-top: -29.5%;
+        text-decoration: none;
+    }
+    .ia3{
+        position: absolute;
+        margin-left: 85%;
+        margin-top: -26%;
+    }
+    .ia33{
+        margin-left: 85%;
+    }
+    .ia4 {
+        position: absolute;
+        margin-left: 0.5%;
+        margin-top: -30%;
+    }
+    .ib1 {
+        margin-left: 9.2%;
+        width: 80%;
+    }
+    .b2 {
+        font-size: 14px;
+    }
+    .b3 {
+        margin-left: 34%;
+    }
+    .c1{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 321px) {
+    .a6 li:hover {
+        display: inline-block;
+        transition: 0.3s ease;
+    }
+    .a6 li + li {
+        margin-top: 12px;
+    }
+    input[type="checkbox"]:checked ~ .a6 {
+        display: block;
+    }
+    .a5 {
+        position: absolute;
+        display: block;
+        margin-left: 210px;
+        margin-top: -30%;
+    }
+    .a6 {
+        display: none;
+        list-style-type: none;
+        text-align: right;
+        right: 10%;
+        left: 0;
+        text-decoration: none;
+    }
+    .a2 {
+        position: absolute;
+        display: block;
+        color: black;
+        margin-left: 55%;
+        margin-top: -11%;
+        text-decoration: none;
+    }
+    .a3 {
+        position: absolute;
+        color: black;
+        margin-left: -45.7%;
+        margin-top: -5%;
+        text-decoration: none;
+    }
+    .a4 {
+        position: absolute;
+        color: black;
+        margin-left: -47.7%;
+        margin-top: 1%;
+        text-decoration: none;
+    }
+    .a8 {
+        position: absolute;
+        text-decoration: none;
+        margin-left: -46.7%;
+        margin-top: 6.8%;
+    }
+    .a9 {
+        position: absolute;
+        text-decoration: none;
+        margin-left: -50%;
+        margin-top: 13%;
+    }
+    .a7 {
+        position: absolute;
+        font-size: 15px;
+        margin-left: 8%;
+        margin-top: -29.5%;
+        text-decoration: none;
+    }
+    .ia3{
+        position: absolute;
+        margin-left: 85%;
+        margin-top: -28%;
+    }
+    .ia4 {
+        position: absolute;
+        width: 20px;
+        height: 16px;
+        margin-left: 0.5%;
+        margin-top: -30%;
+    }
+    .ib1 {
+        margin-left: 9.2%;
+        width: 80%;
+    }
+    .b2 {
+        font-size: 14px;
+    }
+    .b3 {
+        margin-left: 34%;
+    }
+    .c1{
+        font-size: 12px;
+    }
+}

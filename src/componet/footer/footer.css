@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.footer{
+    margin-top: 5%;
+}
+.footerContainer{     
+    padding: 70px 30px 20px;
+}
+.socialIcons{ 
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 2em;
+    color: #ff3d00;
+}
+.footerBottom{
+    padding: 20px;
+    text-align: center;
+}
